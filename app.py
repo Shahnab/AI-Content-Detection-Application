@@ -2,7 +2,12 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st. set_page_config(layout="wide")
-st.image("https://contentatscale.ai/ai-content-detector/assets/images/seo-content.png", width=100)
+
+col1, mid, col2= st.columns([1,1,20])
+with col1:
+    st.image("https://contentatscale.ai/ai-content-detector/assets/images/seo-content.png", width=70)
+with col2:
+    st.markdown("# AI Content Detection Tool")
 
 tab1, tab2 = st.tabs(["Interface", "About the App"])
 
