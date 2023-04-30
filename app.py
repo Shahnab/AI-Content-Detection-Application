@@ -12,11 +12,11 @@ with col2:
 tab1, tab2 = st.tabs(["Interface", "About the App"])
 
 with tab1:
-	st.markdown("AI Content Detection Tool")
+# 	st.markdown("AI Content Detection Tool")
 	st.components.v1.iframe("https://shad0ws-ai-content-perplexityscorer.hf.space", width=1100, height=650, scrolling=True)
 
 with tab2:
-	st.markdown("AI Content Detection Tool")
+# 	st.markdown("AI Content Detection Tool")
 	st.markdown("##### “AI content detectors work by analyzing the text and using a variety of metrics to determine whether it was written by a human or a machine")
 	st.markdown("##### One of the key metrics is perplexity, which is a measure of how well a language model can predict the next word in a given sentence")
 	st.subheader("How does this tool work")
