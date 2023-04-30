@@ -13,7 +13,7 @@ tab1, tab2 = st.tabs(["Interface", "About the App"])
 
 with tab1:
 # 	st.markdown("AI Content Detection Tool")
-	st.components.v1.iframe("https://shad0ws-ai-content-perplexityscorer.hf.space", width=1100, height=650, scrolling=True)
+	st.components.v1.iframe("https://shad0ws-ai-content-perplexityscorer.hf.space", width=1250, height=650, scrolling=True)
 
 with tab2:
 # 	st.markdown("AI Content Detection Tool")
